@@ -169,7 +169,7 @@
   "userContentLoading": {
     "connecting": "Connecting…",
     "failedToConnect": "Failed to connect",
-    "socialHeading": "OpenBazaar News & Discussions:",
+    "socialHeading": "$Bazaar News & Discussions:",
     "btnCancel": "Cancel",
     "btnRetry": "Try Again",
     "loadingText": "Just a minute, loading %{name} from somewhere on this global, peer-to-peer network for you…",

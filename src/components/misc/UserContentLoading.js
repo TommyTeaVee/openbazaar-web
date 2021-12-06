@@ -68,35 +68,35 @@ const UserContentLoading = props => {
           </p>
           <div className="flexVCent flexInline gutterHSm UserContentLoading-socialIcons">
             <a
-              href="https://twitter.com/openbazaar"
+              href="https://twitter.com/sBazaar"
               target="_blank"
               rel="noopener noreferrer"
             >
               <LogoTwitter className="twitterColor" />
             </a>
             <a
-              href="https://www.facebook.com/OpenBazaarProject"
+              href="https://www.facebook.com/sBazaarProject"
               target="_blank"
               rel="noopener noreferrer"
             >
               <LogoFacebook className="facebookColor" />
             </a>
             <a
-              href="https://www.reddit.com/r/OpenBazaar/"
+              href="https://www.reddit.com/r/sBazaar/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <LogoReddit className="redditColor" />
             </a>
             <a
-              href="https://github.com/OpenBazaar/openbazaar-desktop"
+              href="https://github.com/sBazaar/openbazaar-desktop"
               target="_blank"
               rel="noopener noreferrer"
             >
               <LogoGithub className="githubColor" />
             </a>
             <a
-              href="https://openbazaar.org/slack/"
+              href="https://gesturecoin.io/slack/"
               target="_blank"
               rel="noopener noreferrer"
             >

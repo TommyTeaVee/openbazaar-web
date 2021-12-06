@@ -19,7 +19,7 @@ export function generatePeerId(mnemonic) {
     }
 
     const bip39seed = bip39.mnemonicToSeed(mnemonic, 'Secret Passphrase');
-    const hmac = sha256.hmac.create('OpenBazaar seed');
+    const hmac = sha256.hmac.create('$Bazaar seed');
     hmac.update(bip39seed);
     const seed = new Uint8Array(hmac.array());
     keys.generateKeyPairFromSeed('ed25519', seed, (err, keypair) => {
@@ -73,7 +73,7 @@ export const hash = async (text, options = {}) => {
 export function identityKeyFromSeed(mnemonic, bits = 4096) {
   return new Promise((resolve, reject) => {
     const bip39seed = bip39.mnemonicToSeed(mnemonic, 'Secret Passphrase');
-    const hmac = sha256.hmac.create('OpenBazaar seed');
+    const hmac = sha256.hmac.create('$Bazaar seed');
     hmac.update(bip39seed);
     const seed = new Uint8Array(hmac.array());
 

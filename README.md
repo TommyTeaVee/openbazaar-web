@@ -1,5 +1,5 @@
 # openbazaar-web
-OpenBazaar 2.0 browser-based client.
+$Bazaar 2.0 browser-based client.
 
 ## Available Scripts
 
